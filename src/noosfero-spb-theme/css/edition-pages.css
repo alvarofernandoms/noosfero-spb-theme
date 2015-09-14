@@ -475,3 +475,65 @@ font-size: 10px;
   line-height: 20px;
   font-size: 13px;
 }
+
+/* Tasks edition */
+
+.action-tasks-index #content .main-block h1{
+  margin: 0px 0 25px 0;
+  border-bottom: 1px solid #d7d7d7;
+  padding-bottom: 25px;
+}
+
+.action-tasks-index fieldset.filter_fields{
+  border: none;
+}
+
+.action-tasks-index fieldset.filter_fields legend{
+  display: none;
+}
+
+
+.action-tasks-index select{
+  background: none;
+  border: 1px solid #D3D6DE;
+  border-radius: 4px;
+  padding: 4px 15px 4px 4px;
+  margin: 0px 0px 0px 10px;
+  font-size: 14px;
+}
+.action-tasks-index #content .main-block form input[type="text"] {
+  display: block;
+  height: 19px;
+  padding: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 384px;
+  font-size: 15px;
+  font-family: arial, helvetica;
+  color: #585858;
+}
+
+.action-tasks-index .task_box{
+  margin-bottom: 10px;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #ECEDF1;
+  color: #172738;
+  border: 1px solid #D3D6DE;
+}
+
+.action-tasks-index .task_date {
+  font-size: 11px;
+}
+
+.action-tasks-index .task_accept_radio,
+.action-tasks-index .task_reject_radio,
+.action-tasks-index .task_skip_radio{
+  margin: 5px 4px 15px 15px;
+  line-height: 20px;
+  position: absolute;
+}
+.action-tasks-index .task_decisions label{
+  margin: 2px 0px 2px 30px;
+  line-height: 22px;
+}
