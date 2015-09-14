@@ -95,7 +95,6 @@
   border: 1px solid #3E67B1;
   font-size: 14px;
   line-height: 32px;
-  text-transform: uppercase;
 }
 
 #content #article-actions a.button.with-text{
@@ -140,7 +139,6 @@
   border: 1px solid #3E67B1;
   font-size: 14px;
   line-height: 32px;
-  text-transform: uppercase;
 }
 
 #content a.button:hover,
