@@ -312,8 +312,8 @@
   color:#172738;
 }
 
-.template-default .box-3 #bt_wiki:after,
-.template-default .box-3 #bt_repositorio:after{
+.template-default .box-3 #bt_wiki::after,
+.template-default .box-3 #bt_repositorio::after{
   margin-top: -2px;
   padding: 4px 0px 4px 2px;
   border-radius: 4px;
@@ -426,16 +426,16 @@
 
 .template-lefttopright .box-2 #bt_wiki::after,
 .template-lefttopright .box-2 #bt_repositorio::after{
+  width: 18px;
+  position: absolute;
+  right: 10px;
   margin-top: -2px;
   padding: 4px 0px 4px 2px;
   border-radius: 4px;
-  width: 18px;
-  right: 10px;
-  line-height: 20px;
-  position: absolute;
   background: #2C66CE;
   color: #FFF;
   font-size: 16px;
+  line-height: 12px;
   text-align: center;
   content: url('../images/right-arrow.png');
 }
