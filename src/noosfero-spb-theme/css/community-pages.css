@@ -552,6 +552,7 @@ float: left;
 
 .profile-type-is-community #content .members-block{
   display: none;
+  margin-left: 10px;
   border: 1px solid #D3D6DE;
   border-radius: 4px;
 }
@@ -623,6 +624,7 @@ float: left;
   /*height: 70px;*/
   height: 100px;
   max-height: 100px;
+  margin: 0;
 }
 
 .profile-type-is-community #content .members-block .menu-submenu{
@@ -665,7 +667,7 @@ float: left;
 }
 
 .profile-type-is-community #content  .members-block .common-profile-list-block li{
-  margin: 0px !important;
+  margin: 0px;
 }
 
 .profile-type-is-community #content .members-block .common-profile-list-block .vcard .menu-submenu-trigger{
@@ -674,8 +676,10 @@ float: left;
   top: 2px;
   left: 3px;
   padding-bottom: 0px;
+  margin: 0;
   background: #172738;
   border: 1px solid #fff;
+  border-radius: 4px;
   opacity: 0.7;
 }
 
@@ -710,10 +714,10 @@ float: left;
 }
 
 .profile-type-is-community #content .friends-block ul, #content .members-block ul {
-  min-width: 196px;
-  width: 192px;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
+  max-width: 174px;
+  min-width: 170px;
+  margin: 0px;
+  padding: 0px 5px;
 }
 
 .profile-type-is-community #content .members-block .menu-submenu-content .menu-submenu-list li a{
