@@ -19,13 +19,13 @@
 
 .profile-homepage #content .organization-average-rating-container .rate-this-organization {
   font-size: 14px;
-  text-decoration: underline;
   margin: 4px 0px 0px 6px;
   padding: 0px 0px 0px 15px;
 }
 
 .profile-homepage #content .organization-average-rating-container .rate-this-organization a {
   color: #2c66ce;
+  text-decoration: underline;
 }
 
 .profile-homepage #content .organization-average-rating-container .star-container .medium-star-negative,
@@ -287,29 +287,31 @@
 }
 
 #content .star-rate-form .star-comment-container .comments-display-fields:hover span,
-#content .star-rate-form .star-comment-container .comments-display-fields:hover span:after {
+#content .star-rate-form .star-comment-container .comments-display-fields:hover span::after {
   opacity: 0.6;
 }
 
 #content .star-rate-form .star-comment-container .comments-display-fields span#comments-additional-information {
-  color: #172738;
-  display: block;
   float: left;
+  padding-bottom: 4px;
+  color: #172738;
   font-size: 14px;
   font-weight: 700;
-  padding-bottom: 4px;
+}
+
+#content .star-rate-form .star-comment-container .comments-display-fields span.comments-arrow-down,
+#content .star-rate-form .star-comment-container .comments-display-fields span.comments-arrow-up{
+  float: right;
 }
 
 .action-organization_ratings_plugin_profile-new_rating #content .star-rate-form .star-comment-container .comments-display-fields .comments-arrow-up::after {
   content: url('../images/top-arrow-black.png');
-  float: right;
   padding-top: 7px;
   padding-right: 6px;
 }
 
 .action-organization_ratings_plugin_profile-new_rating #content .star-rate-form .star-comment-container .comments-display-fields .comments-arrow-down::after {
   content: url('../images/bottom-arrow-black.png');
-  float: right;
   padding-top: 7px;
   padding-right: 6px;
 }
