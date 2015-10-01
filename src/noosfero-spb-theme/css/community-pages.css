@@ -817,10 +817,14 @@ float: left;
   margin-right: 5px;
 }
 
+
 .action-profile-members #content .page-members-header a.button.with-text:hover{
   border-color: #3E67B1;
 }
 
+.action-profile-members #content .box-1 .common-profile-list-block .page-members-header span{
+  margin-right: auto;
+}
 
 /* Tabs */
 
@@ -886,7 +890,7 @@ float: left;
 }
 
 .action-profile-members #content .profile-members-tabs-container .ui-tabs .ui-tabs-nav li.ui-tabs-active {
-  margin-bottom: -3px;
+  margin-bottom: -3px !important; /*important need in colab*/
   padding-bottom: 1px;
   border-bottom: 3px solid #FF0366;
 }
