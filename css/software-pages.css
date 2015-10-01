@@ -65,7 +65,7 @@
 }
 
 #content .download-block .download-list li {
-  padding: 30px 10px 25px 10px;
+  padding: 30px 10px 25px 20px;
   border-top: 1px solid #D3D6DE;
   clear: both;
 }
@@ -156,10 +156,16 @@
   display: none;
 }
 
-.profile-homepage #article .article-body h1 {
+.profile-homepage #article .article-body h1,
+.profile-homepage #article .article-body h2,
+.profile-homepage #article .article-body h3,
+.profile-homepage #article .article-body h4,
+.profile-homepage #article .article-body h5,
+.profile-homepage #article .article-body h6 {
   border-top: 1px solid #ECEDF1;
   border-bottom: none;
   padding-top: 25px;
+  font-size: 18px;
 }
 
 .profile-homepage #article .article-body p {
