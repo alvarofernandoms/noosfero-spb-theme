@@ -156,12 +156,12 @@
   display: none;
 }
 
-.profile-homepage #article .article-body h1,
-.profile-homepage #article .article-body h2,
-.profile-homepage #article .article-body h3,
-.profile-homepage #article .article-body h4,
-.profile-homepage #article .article-body h5,
-.profile-homepage #article .article-body h6 {
+.profile-type-is-community .profile-homepage .main-block #article .article-body h1,
+.profile-type-is-community .profile-homepage .main-block #article .article-body h2,
+.profile-type-is-community .profile-homepage .main-block #article .article-body h3,
+.profile-type-is-community .profile-homepage .main-block #article .article-body h4,
+.profile-type-is-community .profile-homepage .main-block #article .article-body h5,
+.profile-type-is-community .profile-homepage .main-block #article .article-body h6 {
   /* border-top: 1px solid #ECEDF1;
   border-bottom: none;
   padding-top: 25px; */
