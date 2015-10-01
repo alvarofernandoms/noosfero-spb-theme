@@ -537,9 +537,9 @@
 #content .main-block .article-body ul.etapas-publicacao li strong {
   margin-right: 6px;
   border-radius: 50%;
-  padding: 1px;
+  padding: 1px 0 0 0;
   background: #333;
-  height: 24px;
+  height: 23px;
   width: 24px;
   color: #fff;
   text-align: center;
