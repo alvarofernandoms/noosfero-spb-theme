@@ -171,6 +171,21 @@
   font-weight: 300;
 }
 
+/*tabs painel-admin*/
+.action-admin_panel-site_info .ui-tabs .ui-tabs-nav li{
+  white-space: normal;
+  word-wrap:break-word;
+}
+
+.action-admin_panel-site_info .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+  text-align: center;
+  width: 11.2em;
+  height: 2.5em;
+  max-height: 2.5em;
+  overflow: hidden;
+  line-height: 16px;
+}
+
 /* Community's area tabs */
 
 #content #discussions-content{
