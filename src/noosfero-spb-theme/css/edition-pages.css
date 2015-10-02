@@ -60,6 +60,7 @@
 }
 
 .controller-cms #content .main-content .formfieldline textarea{
+  max-width: 500px;
   padding: 6px;
   color: #585858;
   background: none;
@@ -140,14 +141,19 @@
   height: 30px;
   padding: 2px 15px;
   margin-right: 10px;
-  color: #FFF;
-  background: #3E67B1;
   font-size: 15px;
+  line-height: 14px;
 }
 
-.controller-cms #content .main-content form .button-bar input:hover{
-  background: #5E82C6;
-  border: none;
+.controller-cms #content .main-content form .button-bar a span{
+  line-height: 32px;
+}
+
+.controller-cms #content .main-content form .button-bar input:hover,
+.controller-cms #content .main-content form .button-bar a.button:hover{
+  background: #3E67B1;
+  border-color: #3E67B1;
+  color: #FFF;
 }
 
 .controller-cms #content .main-content form .button-bar input.button.with-text{
@@ -162,12 +168,6 @@
   border: 1px solid #3E67B1;
   font-size: 14px;
   text-align: center;
-}
-
-.controller-cms #content .main-content form .button-bar a.button:hover{
-  background: none;
-  color: #3E67B1;
-  border-color: #3E67B1;
 }
 
 .controller-cms #content .main-content form .box-title{
