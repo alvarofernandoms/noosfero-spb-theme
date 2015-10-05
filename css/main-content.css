@@ -42,7 +42,7 @@
 #content .pagination a,
 #content .pagination em,
 #content .pagination span{
-  padding: 5px 9px;
+  padding: 5px 0;
   margin-right: 4px;
   color: #172738;
   border: 1px solid #D3D6DE;
@@ -51,7 +51,13 @@
   font-size: 12px;
   font-weight: 700;
   text-decoration: none;
-  display: inline-table;
+  display: inline-block;
+  width: 30px;
+}
+
+#content .pagination .previous-arrow,
+#content .pagination .next-arrow{
+  display: none;
 }
 
 #content .pagination .current {
@@ -59,12 +65,40 @@
   font-style: normal;
 }
 
+#content #article .pagination .previous_page,
+#content #article .pagination .next_page,
+#content .pagination .previous_page,
+#content .pagination .next_page{
+  position: relative;
+  padding:5px 9px;
+}
+
+#content #article .pagination .previous_page,
 #content .pagination .previous_page{
   float: left;
 }
 
+#content #article .pagination .next_page,
 #content .pagination .next_page{
   float: right;
+}
+
+#content .pagination .next_page:after,
+#content .pagination .previous_page:before{
+  font-family:"FontAwesome";
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 10px;
+}
+
+#content .pagination .previous_page:before{
+  content:"\f104"; 
+  margin:0 10px 0 0;
+}
+
+#content .pagination .next_page:after{
+  content:"\f105";
+  margin:0 0 0 10px;
 }
 
 #content .pagination .previous_page,
