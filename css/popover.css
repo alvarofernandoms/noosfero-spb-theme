@@ -165,6 +165,15 @@
   color: #FFFFFF;
 }
 
+#content .highlights-popover .inner-content a,
+#content .highlights-popover .inner-content a:visited,
+#content .highlights-popover .inner-content a:hover,
+#content .highlights-popover .inner-content a:link{
+  font-weight: bold;
+  color: #FFFFFF;
+  border-bottom: dotted 1px;
+}
+
 #content .highlights-popover .see-all a,
 #content .highlights-popover .see-all a:visited,
 #content .highlights-popover .see-all a:hover,
