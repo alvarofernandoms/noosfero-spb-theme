@@ -289,3 +289,25 @@
 .action-profile_editor-edit_software_community .field-privacy-selector{
   vertical-align: bottom;
 }
+
+/*Edition configuration profile */
+
+.action-profile_editor-edit #delete-profile{
+  margin-top:0px;
+}
+
+/*form Change Password */
+.action-account-change_password #content form input.button.with-text.icon-ok.submit{
+  height: 32px;
+  padding:0px 10px;
+}
+
+.action-account-change_password input{
+padding: 6px;
+color: #585858;
+background: #FFF;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 15px;
+font-family: Arial, helvetica;
+}
