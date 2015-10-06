@@ -171,6 +171,21 @@
   font-weight: 300;
 }
 
+/*tabs painel-admin*/
+.action-admin_panel-site_info .ui-tabs .ui-tabs-nav li{
+  white-space: normal;
+  word-wrap:break-word;
+}
+
+.action-admin_panel-site_info .ui-tabs .ui-tabs-nav .ui-tabs-anchor{
+  text-align: center;
+  width: 11.2em;
+  height: 2.5em;
+  max-height: 2.5em;
+  overflow: hidden;
+  line-height: 16px;
+}
+
 /* Community's area tabs */
 
 #content #discussions-content{
@@ -481,19 +496,25 @@ float: left;
 
 /*Block with Community information - Need to develop solution - Only display on profile page */
 
-.profile-type-is-community .community-block{
+.profile-type-is-community .block.community-block{
   display: none;
 }
 
-.profile-type-is-community .action-profile_design-index #content .community-block,
-.profile-type-is-community .action-profile-index #content .community-block{
+.profile-type-is-community .action-profile_design-index #content .block.community-block,
+.profile-type-is-community .action-profile-index #content .block.community-block{
   display: block;
+  margin-left: 10px;
   border: 1px solid #ECEDF1;
   border-radius: 4px;
 }
 
 .profile-type-is-community  #content .community-block-logo{
   border-bottom: 3px solid #3E67B1;
+  padding: 10px;
+  height: 100px;
+  width: 165px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .profile-type-is-community  #content .community-block-title{
@@ -509,22 +530,18 @@ float: left;
   line-height: 20px;
 }
 
-.profile-type-is-community  #content .community-block-logo{
-  padding: 10px;
+.profile-type-is-community  #content .community-block-logo a{
+  display: block;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
 }
 
 .profile-type-is-community  #content .community-block-logo img.logo{
   height: auto;
-  width: 100px;
-  min-width: 100px;
-  max-width: 170px;
-}
-
-.profile-type-is-community  #content .community-block-logo a{
-  display: block;
-  height: 100px;
-  overflow: hidden;
-  text-align: center;
+  width: auto;
+  max-width: 160px;
+  max-height: 100px;
 }
 
 /* Wiki block - Need to develop solution - Only display on profile page */
@@ -550,6 +567,7 @@ float: left;
 
 .profile-type-is-community #content .members-block{
   display: none;
+  margin-left: 10px;
   border: 1px solid #D3D6DE;
   border-radius: 4px;
 }
@@ -621,6 +639,7 @@ float: left;
   /*height: 70px;*/
   height: 100px;
   max-height: 100px;
+  margin: 0;
 }
 
 .profile-type-is-community #content .members-block .menu-submenu{
@@ -663,18 +682,19 @@ float: left;
 }
 
 .profile-type-is-community #content  .members-block .common-profile-list-block li{
-  margin: 0px !important;
+  margin: 0px;
 }
 
 .profile-type-is-community #content .members-block .common-profile-list-block .vcard .menu-submenu-trigger{
   display: block;
   height: 13px;
-  top: 2px;
-  left: 3px;
+  top: 3px;
+  left: 4px;
   padding-bottom: 0px;
+  margin: 0;
   background: #172738;
-  border: 1px solid #fff;
-  opacity: 0.7;
+  border: none;
+  border-radius: 4px;
 }
 
 .profile-type-is-community #content .members-block .common-profile-list-block .vcard .menu-submenu-trigger::before{
@@ -708,10 +728,10 @@ float: left;
 }
 
 .profile-type-is-community #content .friends-block ul, #content .members-block ul {
-  min-width: 196px;
-  width: 192px;
-  margin: 0px 0px 0px 0px;
-  padding: 0px;
+  max-width: 174px;
+  min-width: 170px;
+  margin: 0px;
+  padding: 0px 5px;
 }
 
 .profile-type-is-community #content .members-block .menu-submenu-content .menu-submenu-list li a{
@@ -811,10 +831,14 @@ float: left;
   margin-right: 5px;
 }
 
+
 .action-profile-members #content .page-members-header a.button.with-text:hover{
   border-color: #3E67B1;
 }
 
+.action-profile-members #content .box-1 .common-profile-list-block .page-members-header span{
+  margin-right: auto;
+}
 
 /* Tabs */
 
@@ -880,7 +904,7 @@ float: left;
 }
 
 .action-profile-members #content .profile-members-tabs-container .ui-tabs .ui-tabs-nav li.ui-tabs-active {
-  margin-bottom: -3px;
+  margin-bottom: -3px !important; /*important need in colab*/
   padding-bottom: 1px;
   border-bottom: 3px solid #FF0366;
 }
