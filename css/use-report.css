@@ -144,7 +144,7 @@
 }
 
 #content .main-content .star-rate-data .star-rate-form {
-  padding: 0 37px;
+  padding: 0 0 0 37px;
   letter-spacing: 0.1px;
   width: 100%;
 }
@@ -155,7 +155,6 @@
 }
 
 #content .main-content .star-rate-data .star-profile-information {
-  padding-left: 15px;
   width: 79px;
 }
 
@@ -210,7 +209,7 @@
   font-weight: 700;
   text-transform: uppercase;
   color: #FFF;
-  padding: 5px;
+  padding: 5px 10px;
   height: 31px;
   line-height: 20px;
   font-family: Arial;
@@ -221,6 +220,7 @@
 }
 
 #content .main-content .star-rate-data .star-rate-form .star-comment-container .button-bar {
+  margin-top: 20px;
   padding-bottom: 50px;
 }
 
