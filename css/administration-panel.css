@@ -289,3 +289,19 @@
 .action-profile_editor-edit_software_community .field-privacy-selector{
   vertical-align: bottom;
 }
+
+/* Members management */
+.action-profile_members-index #members-list td{
+  padding-top: 5px; 
+}
+
+/*recover behavior of noosfero*/
+.action-profile_members-change_role .role-permissions{
+  margin: 12px 0;
+  padding-left: 40px;
+}
+
+/*recover behavior of noosfero*/
+.action-profile_members-change_role .role-permissions li{
+  list-style: square;
+}
