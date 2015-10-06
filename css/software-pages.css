@@ -463,23 +463,31 @@
 
 .software-metrics-block .metrics-list li {
   display: table;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
-.software-metrics-block .metrics-list li span,
-.software-metrics-block .metrics-list li a {
+.software-metrics-block .metrics-list li span {
+  color: #2C66CE;
   display: table-cell;
   vertical-align: top;
 }
 
-#content .software-metrics-block .metrics-list li a:link {
-  color: #2c66ce;
+.software-metrics-block .metrics-list li span#visit-count {
+  padding-left: 1px;
 }
 
-.software-metrics-block span.arrow-globe-icon {
+.software-metrics-block .metrics-list li span#visit-count,
+.software-metrics-block .metrics-list li span#downloads-count,
+.software-metrics-block .metrics-list li span#benefited-people,
+.software-metrics-block .metrics-list li span#saved-resources {
+  padding-top: 4px;
+}
+
+.software-metrics-block li span.arrow-globe-icon {
   background: url('../images/arrow-globe-icon.png') no-repeat center center;
   width: 25px;
   height: 18px;
+  padding-left: 9px !important;
 }
 
 .software-metrics-block span.downloads-icon {
@@ -500,9 +508,9 @@
   height: 20px;
 }
 
-.software-metrics-block .metrics-list li a {
+.software-metrics-block .metrics-list li span {
   letter-spacing: -0.1px;
-  line-height: 20px;
+  line-height: 15px;
   padding-left: 5px;
 }
 

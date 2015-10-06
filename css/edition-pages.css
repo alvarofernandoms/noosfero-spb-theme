@@ -220,6 +220,9 @@
 }
 
 /*** Article's edition page ***/
+#content .text-editor-sidebar {
+  width: 400px;
+}
 
 #content .text-editor-sidebar .header{
   padding: 13px 10px;
@@ -248,6 +251,10 @@
   background: #ECEDF1;
   border-radius: 4px;
   border: 1px solid #D3D6DE;
+}
+
+#content .text-editor-sidebar #published-media .section-title {
+  display: inline-block;
 }
 
 /*New Software form*/

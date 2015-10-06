@@ -257,6 +257,12 @@
   background: none;
 }
 
+/* CMS */
+.action-cms-index .cms-articles td{
+  padding: 2px 5px;
+  vertical-align: middle;
+}
+
 /* Tasks - tmp adjust */
 .action-profile_editor-index #content .pending-tasks{
   max-width: 500px;
@@ -279,3 +285,52 @@
 .action-profile_editor-index #content .pending-tasks .button.icon-todo.with-text:hover{
   background: #5E82C6;
 }
+
+/* Edit software page */
+
+.action-profile_editor-edit_software_community #profile-is-template{
+  margin-top: 10px;
+}
+
+.action-profile_editor-edit_software_community .field-privacy-selector{
+  vertical-align: bottom;
+}
+
+/* Members management */
+.action-profile_members-index #members-list td{
+  padding-top: 5px; 
+}
+
+/*recover behavior of noosfero*/
+.action-profile_members-change_role .role-permissions{
+  margin: 12px 0;
+  padding-left: 40px;
+}
+
+/*recover behavior of noosfero*/
+.action-profile_members-change_role .role-permissions li{
+  list-style: square;
+}
+
+/*Edit configuration profile */
+
+.action-profile_editor-edit #delete-profile{
+  margin-top:0px;
+}
+
+/*form Change Password */
+.action-account-change_password #content form input.button.with-text.icon-ok.submit{
+  height: 32px;
+  padding:0px 10px;
+}
+
+.action-account-change_password input{
+padding: 6px;
+color: #585858;
+background: #FFF;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 15px;
+font-family: Arial, helvetica;
+}
+
