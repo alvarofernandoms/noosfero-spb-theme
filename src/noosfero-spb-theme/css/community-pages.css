@@ -355,6 +355,10 @@
 
 /* Blog tab*/
 
+#content #blog-tab .software-blog-post-empty{
+  margin-top: 30px;
+}
+
 #content #blog-tab .blog-posts{
   margin-top:15px;
 }
@@ -394,11 +398,13 @@
   display:inline;
   text-align: left;
 }
+
 #content #blog-tab .blog .blog-post .publishing-info .date {
   margin: 0px 0px 5px 0px;
-  display: table-cell;
+  display: block;
   font-size: 11px;
 }
+
 #content #blog-tab .blog .blog-post .author {
   display: none;
 }
@@ -687,9 +693,10 @@ float: left;
 
 .profile-type-is-community #content .members-block .common-profile-list-block .vcard .menu-submenu-trigger{
   display: block;
-  height: 13px;
+  height: 16px;
   top: 3px;
   left: 4px;
+  padding-top: 0px;
   padding-bottom: 0px;
   margin: 0;
   background: #172738;
@@ -702,7 +709,7 @@ float: left;
   color: #fff;
   font-family: FontAwesome;
   font-size: 8px;
-  line-height: 11px;
+  line-height: 16px;
 }
 
 .profile-type-is-community #content .members-block .common-profile-list-block .fn {
@@ -734,6 +741,10 @@ float: left;
   padding: 0px 5px;
 }
 
+.profile-type-is-community #content .members-block .menu-submenu ul{
+  padding: 0px;
+}
+
 .profile-type-is-community #content .members-block .menu-submenu-content .menu-submenu-list li a{
   padding: 2px;
   color: #fff;
@@ -742,7 +753,7 @@ float: left;
   line-height: 30px;
 }
 
-.profile-type-is-community #content .members-block .menu-submenu-content .menu-submenu-list li a.add-friend{
+.profile-type-is-community #content .members-block .menu-submenu-content .menu-submenu-list li:last-child a{
   border: none;
 }
 
@@ -972,9 +983,13 @@ float: left;
 }
 
 .action-profile-members .box-1 .common-profile-list-block span{
-  margin-right: 9px;
+  margin-right: 0px;
   width: 90px;
   height: 86px;
+}
+
+.action-profile-members .box-1 .common-profile-list-block .button-bar span{
+  margin: 0px
 }
 
 .action-profile-members .common-profile-list-block img{
@@ -1069,9 +1084,9 @@ float: left;
 .action-profile-members .common-profile-list-block .vcard .menu-submenu-trigger{
   display: block;
   background:#172738;
-  top:5px;
-  left:4px;
-  border:1px solid #172738;
+  top: 5px;
+  left: 4px;
+  border: 1px solid #172738;
   padding-bottom: 0px;
   border-radius: 5px;
   -moz-border-radius:5px;
