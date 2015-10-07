@@ -159,12 +159,18 @@
 }
 
 #content .main-content .star-rate-data .star-profile-information .star-profile-image {
-  padding-top: 1px;
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 #content .main-content .star-rate-data .star-profile-information .star-profile-image img {
-  border-radius: 4px;
-  height: 60px;
+  height: auto;
+  width: 60px;
+}
+
+#content .main-content .star-rate-data .star-profile-information .star-profile-name{
   width: 60px;
 }
 
@@ -367,12 +373,19 @@
 
 .ratings-list .user-rating-block .star-profile-information .star-profile-name {
   line-height: 16px;
-  width: 70px;
+  width: 60px;
+}
+
+.ratings-list .star-profile-information .star-profile-image {
+  height: 60px;
+  width: 60px;
+  overflow: hidden;
+  border-radius: 4px;
 }
 
 .ratings-list .star-profile-information .star-profile-image img {
-  border-radius: 4px;
-  height: 60px;
+  height: auto;
+  width: 60px;
 }
 
 .ratings-list .user-rating-block .user-testimony-container {
@@ -471,17 +484,16 @@
   padding-left: 1px;
 }
 
-.ratings-list .make-report-block .make-report-container .button-bar a,
-.star-rate-data .rating-cooldown .button-bar a,
-.star-rate-data .rating-vote-once .button-bar a {
+#content .ratings-list .make-report-block .make-report-container .button-bar a,
+#content .star-rate-data .rating-cooldown .button-bar a,
+#content .star-rate-data .rating-vote-once .button-bar a {
   background-color: #3E67B1;
   background-image: none;
   color: #fff;
   font-weight: 700;
   font-size: 14px;
   font-style: normal;
-  height: 31px;
-  padding: 0px 7px 0px 7px;
+  padding: 8px 12px 8px 8px;
   text-transform: uppercase;
 }
 
