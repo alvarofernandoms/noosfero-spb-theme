@@ -331,11 +331,19 @@
 #content #repository-feed-tab .project-name{
   overflow: hidden;
   height: 55px;
-  display: block;
 }
 
-#repository-feed-tab .event-body,
-#repository-feed-tab .event-note{
+#repository-feed-tab .event-item .event-body .event-note{
+  font-size: 16px;
+  white-space: nowrap;
+  width: 400px;
+  overflow-x:hidden;
+  text-overflow:ellipsis;
+}
+
+#repository-feed-tab .event-item .event_commits,
+#repository-feed-tab .event-item .event-body .event-note .md,
+#repository-feed-tab .event-body img {
   display: none;
 }
 
@@ -406,6 +414,7 @@
   background: center/cover no-repeat;
   float: left;
 }
+
 #content #blog-tab .blog .blog-post .publishing-info {
   border-top: none;
   color: #172838;
