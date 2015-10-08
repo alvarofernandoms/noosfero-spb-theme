@@ -224,7 +224,7 @@
 }
 
 #discussions-content .quiet{
-  line-height: 21px;
+  margin-bottom: 10px;
 }
 
 #discussions-content div.quiet:last-child{
@@ -271,17 +271,22 @@
 }
 
 #content #discussions-content .subject{
-  font-weight: 800;
+  font-weight: 700;
   font-size: 16px
 }
 
-#repository-feed-tab .event-inline.event-item{
+/*Respository tabs*/
+
+#repository-feed-tab .event-inline.event-item,
+#repository-feed-tab .event-block.event-item{
   border-bottom: 1px solid #ECEDF1;
   margin-top:30px;
-  padding: 0px 0px 80px 0px;
+  padding: 0px 0px 30px 0px;
+  min-height: 50px;
 }
 
-#repository-feed-tab .event-inline.event-item img{
+#repository-feed-tab .event-inline.event-item img,
+#repository-feed-tab .event-block.event-item img{
   display: none;
 }
 
@@ -289,11 +294,12 @@
   border-right: 1px dotted #D3D6DE;
   float:left;
   width: 112px;
-  height: 55px;
+  height: 58px;
   margin-right: 20px;
 }
 #repository-feed-tab .event-item-timestamp .time_ago{
   color:#172738;
+  font-family: arial;
 }
 
 #repository-feed-tab .event-item-timestamp .time_ago:before{
@@ -304,11 +310,12 @@
 }
 
 #repository-feed-tab .event-title{
-  max-height: 55px;
+  /*max-height: 55px;
   overflow: hidden;
   float:left;
-  width: 70%;
+  width: 70%;*/
   font-size: 16px;
+  font-family: arial, Helvetica;
 }
 
 #content #repository-feed-tab .author_name{
@@ -319,6 +326,17 @@
 
 #content #repository-feed-tab .author_name a{
   color:#3E67B1;
+}
+
+#content #repository-feed-tab .project-name{
+  overflow: hidden;
+  height: 55px;
+  display: block;
+}
+
+#repository-feed-tab .event-body,
+#repository-feed-tab .event-note{
+  display: none;
 }
 
 #repository-feed-tab .see-more-repository{
