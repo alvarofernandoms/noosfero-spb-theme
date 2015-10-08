@@ -227,6 +227,7 @@ $('#link-buscar').click(function(e) {
   function set_use_report_content() {
     $('.profile-homepage .organization-average-rating-container .rate-this-organization a').html('Avalie este software');
     $('.make-report-block .make-report-container .button-bar a span').html('Avalie este software');
+    $('.star-rate-data .star-rate-form.rating-cooldown .button-bar a span').html('Avalie este software');
     $('.make-report-block .make-report-container .make-report-message').html('Relate sua experiência ou do órgão/empresa com relação ao software.');
     $('.ratings-list .see-more a.icon-arrow-right-p').html('veja todos os relatos');
     $('.main-content .star-rate-data .star-rate-form .star-comment-container .button-bar input').attr('value', 'Enviar');

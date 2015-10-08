@@ -381,6 +381,7 @@
   width: 60px;
   overflow: hidden;
   border-radius: 4px;
+  margin: auto;
 }
 
 .ratings-list .star-profile-information .star-profile-image img {
@@ -462,7 +463,7 @@
 
 .make-report-block .star-profile-information .star-profile-name {
   margin-top: 8px;
-  width: 70px;
+  width: 60px;
 }
 
 .ratings-list .make-report-block .make-report-container {
@@ -475,11 +476,11 @@
   font-size: 18px;
 }
 
-.ratings-list .make-report-block .make-report-container .button-bar {
+#content .ratings-list .make-report-block .make-report-container .button-bar {
   padding-top: 6px;
 }
 
-.ratings-list .make-report-block .make-report-container .alert {
+#content .ratings-list .make-report-block .make-report-container .alert {
   margin-top: 37px;
   padding-left: 1px;
 }
@@ -497,16 +498,16 @@
   text-transform: uppercase;
 }
 
-.star-rate-data .rating-cooldown,
-.star-rate-data .rating-vote-once {
+#content .star-rate-data .rating-cooldown,
+#content .star-rate-data .rating-vote-once {
   font-family: Arial;
   font-size: 18px;
   font-style: italic;
   word-break: break-word;
 }
 
-.star-rate-data .rating-cooldown .button-bar a.disabled-button,
-.star-rate-data .rating-vote-once .button-bar a.disabled-button {
+#content .star-rate-data .rating-cooldown .button-bar a.disabled-button,
+#content .star-rate-data .rating-vote-once .button-bar a.disabled-button {
   cursor: not-allowed;
   opacity: 0.4;
 }
